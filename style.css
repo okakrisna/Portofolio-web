@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800&display=swap");
+
+.main-body,
+.three {
+  padding-bottom: 10%;
+  background-color: rgb(246, 246, 246);
+}
+
+.text-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.header-nav {
+  margin-left: 70%;
+}
+
+.pp-img {
+  width: 600px;
+  height: 600px;
+  border-radius: 60%;
+}
+
+.bio {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.bio-1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.logo-brandLikedin {
+  width: 35px;
+  height: 35px;
+}
+
+.logo-brandGithub {
+  width: 30px;
+  height: 30px;
+}
+
+.second,
+.three,
+.four {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.bio-second {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.laptop-des {
+  width: 420px;
+  height: 420px;
+  border-radius: 30px;
+}
+
+.img-project {
+  width: 600px;
+  height: 1970px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(101, 101, 101, 0.2);
+  transition: transform 10s ease-in-out;
+}
+
+.img-project.active {
+  transform: translateY(-80%);
+}
+
+.project {
+  text-decoration: none !important;
+  color: inherit;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  margin-top: 5%;
+}
+
+.project-des {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.card {
+  box-shadow: 0 0 20px rgba(101, 101, 101, 0.2);
+}
+
+.img-1 {
+  border-radius: 20px;
+}
+
+.project1 {
+  height: 450px;
+}
+
+.img1 {
+  border-radius: 20px;
+
+  height: 400px;
+  overflow: hidden;
+  scrollbar-width: thin;
+  -ms-overflow-style: none;
+}
+
+.img1::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+.bhs-project {
+  border-radius: none;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+}
+
+.github-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.demo-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.contact-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: rgb(39, 39, 207);
+}
+
+.des-footerFont {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 23px;
+}
+
+.project-font {
+  text-decoration: none !important;
+  color: inherit;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.text-footer {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.logo-footer {
+  width: 20px;
+  height: 20px;
+}
+
+.card-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.custom-card {
+  border-radius: 25px;
+}
+
+.copyright {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  padding-left: 16%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-color: rgb(46, 46, 46);
+}
+
+.text-bhs {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.stack-img {
+  width: 50px;
+  height: 50px;
+}
+
+.stack-img2 {
+  margin-left: 40px;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+/* Tambahkan media queries di bagian bawah file CSS */
+
+@media screen and (max-width: 992px) {
+  .header-nav {
+    margin-left: 0;
+  }
+
+  .pp-img {
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+  }
+
+  .bio {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .bio-1 {
+    text-align: center;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .stack-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .stack-img,
+  .stack-img2 {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .laptop-des {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .img-project {
+    width: 100%;
+    height: auto;
+  }
+
+  .project1 {
+    height: auto;
+  }
+
+  .project-des {
+    margin: 20px 0;
+  }
+
+  .pp {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bio {
+    font-size: 32px;
+  }
+
+  .copyright {
+    padding-left: 5%;
+    text-align: center;
+  }
+
+  .pp-img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .pp-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .bio-second {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .project {
+    text-align: center;
+  }
+}
